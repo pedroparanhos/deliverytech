@@ -56,8 +56,8 @@ http://localhost:8080/swagger-ui.html
 ### 🖥️ Via Maven
 
 ```bash
-git clone https://github.com/seuusuario/delivery-api.git
-cd delivery-api
+git clone https://github.com/seuusuario/deliverytech.git
+cd deliverytech
 ./mvnw spring-boot:run
 ```
 
