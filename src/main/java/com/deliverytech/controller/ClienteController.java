@@ -2,6 +2,7 @@ package com.deliverytech.controller;
 
 import com.deliverytech.dto.request.ClienteRequest;
 import com.deliverytech.dto.response.ClienteResponse;
+import com.deliverytech.exception.EntityNotFoundException;
 import com.deliverytech.model.Cliente;
 import com.deliverytech.service.ClienteService;
 import jakarta.validation.Valid;
@@ -12,9 +13,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import java.util.List;
-import java.util.stream.Collectors;
+import java.net.URI;
 
 @RestController
 @RequestMapping("/api/clientes")
@@ -36,10 +37,14 @@ public class ClienteController {
                 .build();
 
         Cliente salvo = clienteService.cadastrar(cliente);
-
         logger.debug("Cliente salvo com ID {}", salvo.getId());
+        // Retorna 201 Created com a localização do novo recurso no header
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest()
+            .path("/{id}")
+            .buildAndExpand(salvo.getId())
+            .toUri();
 
-        return ResponseEntity.ok(new ClienteResponse(salvo.getId(), salvo.getNome(), salvo.getEmail(), salvo.getAtivo()));
+        return ResponseEntity.created(location).body(new ClienteResponse(salvo.getId(), salvo.getNome(), salvo.getEmail(), salvo.getAtivo()));
     }
 
     @GetMapping
@@ -55,11 +60,9 @@ public class ClienteController {
         return clienteService.buscarPorId(id)
                 .map(c -> new ClienteResponse(c.getId(), c.getNome(), c.getEmail(), c.getAtivo()))
                 .map(ResponseEntity::ok)
-                .orElseGet(() -> {
-                    logger.warn("Cliente com ID {} não encontrado", id);
-                    return ResponseEntity.notFound().build();
-                });
+                .orElseThrow(() -> new EntityNotFoundException("Cliente", id));
     }
+    
 
     @PutMapping("/{id}")
     public ResponseEntity<ClienteResponse> atualizar(@PathVariable Long id, @Valid @RequestBody ClienteRequest request) {
@@ -71,7 +74,6 @@ public class ClienteController {
                 .build();
 
         Cliente salvo = clienteService.atualizar(id, atualizado);
-
         return ResponseEntity.ok(new ClienteResponse(salvo.getId(), salvo.getNome(), salvo.getEmail(), salvo.getAtivo()));
     }
 
