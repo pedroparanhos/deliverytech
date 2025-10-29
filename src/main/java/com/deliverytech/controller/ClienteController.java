@@ -91,6 +91,7 @@ public class ClienteController {
         return ResponseEntity.noContent().build();
     }
 
+    @Operation(summary = "Atualiza o status do cliente", description = "Verifica se está ativo, inativo ou outra funcionalidade que queira adicionar")
     @GetMapping("/status")
     public ResponseEntity<String> status() {
         logger.debug("Status endpoint acessado");
