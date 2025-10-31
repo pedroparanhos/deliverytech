@@ -1,50 +1,50 @@
-E:\Programação\deliverytech\src\main\java\com\deliverytech\controller\ClienteController.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\exception\ErrorResponse.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\response\ItemPedidoResponse.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\config\SecurityConfig.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\repository\ProdutoRepository.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\exception\ConflictException.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\service\impl\PedidoServiceImpl.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\exception\EntityNotFoundException.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\response\PedidoResponse.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\Usuario.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\service\impl\ProdutoServiceImpl.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\repository\ClienteRepository.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\Endereco.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\security\JwtAuthenticationFilter.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\repository\PedidoRepository.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\service\ProdutoService.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\controller\AuthController.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\Produto.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\request\ClienteRequest.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\request\RegisterRequest.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\config\OpenApiConfig.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\security\JwtUtil.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\security\UsuarioDetailsServiceImpl.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\request\LoginRequest.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\request\ProdutoRequest.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\Cliente.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\service\impl\ClienteServiceImpl.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\exception\BusinessException.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\service\impl\RestauranteServiceImpl.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\repository\UsuarioRepository.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\service\ClienteService.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\Pedido.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\ItemPedido.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\controller\RestauranteController.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\response\RestauranteResponse.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\StatusPedido.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\response\ClienteResponse.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\response\ProdutoResponse.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\Restaurante.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\repository\RestauranteRepository.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\service\PedidoService.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\DeliveryTechApiApplication.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\exception\GlobalExceptionHandler.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\controller\PedidoController.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\request\RestauranteRequest.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\controller\ProdutoController.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\request\PedidoRequest.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\dto\request\ItemPedidoRequest.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\service\RestauranteService.java
-E:\Programação\deliverytech\src\main\java\com\deliverytech\model\Role.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\impl\PedidoServiceImpl.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Role.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\controller\PedidoController.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\ItemPedido.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\request\ProdutoRequest.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\repository\RestauranteRepository.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\impl\RestauranteServiceImpl.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Cliente.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\exception\ErrorResponse.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\exception\EntityNotFoundException.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\request\LoginRequest.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\request\RegisterRequest.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\StatusPedido.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\request\ClienteRequest.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\security\UsuarioDetailsServiceImpl.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\response\ClienteResponse.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\repository\PedidoRepository.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\security\JwtUtil.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\ClienteService.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\response\ItemPedidoResponse.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\response\ProdutoResponse.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\exception\BusinessException.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\exception\GlobalExceptionHandler.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\impl\ProdutoServiceImpl.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Usuario.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Restaurante.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\controller\ClienteController.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\response\RestauranteResponse.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\controller\AuthController.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\DeliveryTechApiApplication.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\security\JwtAuthenticationFilter.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\PedidoService.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\config\SecurityConfig.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\repository\ProdutoRepository.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\response\PedidoResponse.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\controller\ProdutoController.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Endereco.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\impl\ClienteServiceImpl.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\controller\RestauranteController.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Pedido.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\ProdutoService.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\exception\ConflictException.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Produto.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\request\ItemPedidoRequest.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\request\RestauranteRequest.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\request\PedidoRequest.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\config\OpenApiConfig.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\repository\UsuarioRepository.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\RestauranteService.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\repository\ClienteRepository.java
