@@ -27,15 +27,24 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+
+        // Definindo uma lista de endpoints públicos que não exigem autenticação
+        final String[] PUBLIC_ENDPOINTS = {
+                "/api/auth/**",
+                "/swagger-ui.html",
+                "/swagger-ui/**",
+                "/api-docs/**",
+                "/h2-console/**",
+                "/actuator/**" // Liberando todos os endpoints do Actuator
+        };
+
         return http
                 .csrf(csrf -> csrf.disable()) // Desabilita a proteção CSRF que não é necessária para uma API stateless
+                .headers(headers -> headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::disable)) // Permite o acesso ao H2 console
                 .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) // Garante que a sessão não armazene estado
-                .headers(headers -> headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::disable))
-                
                 .authorizeHttpRequests(auth -> auth
                         // Endpoints Públicos: Acesso liberado para todos
-                        .requestMatchers("/api/auth/**").permitAll()
-                        .requestMatchers("/swagger-ui/**", "/api-docs/**", "/h2-console/**").permitAll()
+                        .requestMatchers(PUBLIC_ENDPOINTS).permitAll()
 
                         // Endpoints de Cliente: ADMIN pode gerenciar, CLIENTE pode se cadastrar
                         .requestMatchers("/api/clientes").hasAnyAuthority("ROLE_ADMIN", "ROLE_CLIENTE")
