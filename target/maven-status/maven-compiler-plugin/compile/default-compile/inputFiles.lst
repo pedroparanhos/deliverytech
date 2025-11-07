@@ -21,6 +21,7 @@ C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\d
 C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\dto\response\ProdutoResponse.java
 C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\exception\BusinessException.java
 C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\exception\GlobalExceptionHandler.java
+C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\config\CacheConfig.java
 C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\service\impl\ProdutoServiceImpl.java
 C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Usuario.java
 C:\Users\ADM\Documents\Projetos - Programação\deliverytech\src\main\java\com\deliverytech\model\Restaurante.java

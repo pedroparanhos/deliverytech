@@ -16,4 +16,3 @@ public interface ClienteService {
     Cliente atualizar(Long id, Cliente clienteAtualizado);
     void ativarDesativar(Long id);
 }
-
