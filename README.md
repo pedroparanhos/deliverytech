@@ -40,8 +40,9 @@ docker-compose up
 ```
 
 A API estará disponível em: `http://localhost:8080`
+```bash
 A documentação Swagger/OpenAPI estará disponível em: `http://localhost:8080/swagger-ui.html`
-
+```
 ---
 
 ## Funcionalidades
