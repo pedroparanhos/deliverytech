@@ -14,6 +14,6 @@ public interface ClienteRepository extends JpaRepository<Cliente, Long> {
     Optional<Cliente> findByEmail(String email);
     boolean existsByEmail(String email);
 
-    // Modificado: Retorna uma 'Page' em vez de uma 'List' e aceita 'Pageable'
+    // Retorna uma 'Page' 
     Page<Cliente> findByAtivoTrue(Pageable pageable);
 }

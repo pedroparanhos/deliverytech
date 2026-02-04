@@ -69,7 +69,7 @@ public class ClienteController {
                 .orElseThrow(() -> new EntityNotFoundException("Cliente", id));
     }
     
-    @Operation(summary = "Atualiza um cliente", description = "Atualiza os dados de uim cliente existente a partir do seu ID.")
+    @Operation(summary = "Atualiza um cliente", description = "Atualiza os dados de um cliente existente a partir do seu ID.")
     @PutMapping("/{id}")
     public ResponseEntity<ClienteResponse> atualizar(@PathVariable Long id, @Valid @RequestBody ClienteRequest request) {
         logger.info("Atualizando cliente ID: {}", id);
